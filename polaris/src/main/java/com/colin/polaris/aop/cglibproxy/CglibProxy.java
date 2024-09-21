@@ -20,7 +20,7 @@ public class CglibProxy implements MethodInterceptor {
         System.out.println("before >>>>>>");
         methodProxy.invokeSuper(o, objects);
         //MethodAfterAdviceInterceptor
-        System.out.println("after >>>>>>");
+        System.out.println("after >>>>>>>");
         return null;
     }
 }
